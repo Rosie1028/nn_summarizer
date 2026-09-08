@@ -32,7 +32,15 @@ uvicorn main:app --reload
 
 ## Frontend (`nn_frontend`)
 
-UI for submitting articles and displaying generated summaries. Still being built.
+React (Create React App) UI for pasting an article and requesting a summary from the API. Run the backend first, then:
+
+```bash
+cd nn_frontend
+npm install
+npm start
+```
+
+The app runs at `http://localhost:3000` and posts to `http://127.0.0.1:8000/`.
 
 ## Notebooks
 
