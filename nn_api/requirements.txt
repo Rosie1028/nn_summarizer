@@ -64,6 +64,9 @@ streamlit==1.43.2
 streamlit-lottie==0.0.5
 tenacity==8.2.3
 tokenizers==0.21.1
+torch>=2.14.0
+uvicorn>=0.30.0
+pydantic-settings>=2.0.0
 toml==0.10.2
 tornado==6.4.2
 tqdm==4.67.1
